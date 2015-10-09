@@ -36,7 +36,7 @@ public class Butterfly extends Insect {
     // end setters & getters
 
     // misc methods
-    protected void printSpeciesData() {
+    public void printSpeciesData() {
         // prints out information about the butterfly
         System.out.printf("The %s has %d %s wings, %d legs, and its favorite flower is %s.\n",
                 this.getName(),this.getWings(),this.getWing_color(), this.getLegs(),this.getFavorite_flower());

@@ -47,7 +47,7 @@ public class Bee extends Insect {
     // end setters & getters
 
     // misc methods
-    protected void printSpeciesData() {
+    public void printSpeciesData() {
         System.out.printf("A %s is %s, has %d wings, %d legs, its favorite flower is %s, " +
                 "and it %s collect honey.\n", this.getName(),this.getColor(), this.getWings(),
                 this.getLegs(),this.getFavorite_flower(),this.gathersHoney());

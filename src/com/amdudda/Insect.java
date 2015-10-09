@@ -3,12 +3,15 @@ package com.amdudda;
 /**
  * Created by amdudda on 10/9/15.
  */
-public class Insect {
+public abstract class Insect {
 
     // attributes of Insect object
     private String name;
     private int wings;
     private final int legs = 6;
+
+    // abstracts of Insect
+    public abstract void printSpeciesData();
 
     // getter and setter for name and wings
     public String getName() {
