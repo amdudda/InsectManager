@@ -10,10 +10,10 @@ public class Butterfly extends Insect {
     private String favorite_flower;
 
     // Constructor
-    public Butterfly(String bName, String bColor, int bWings, String bFlower) {
-        this.setName(bName);
+    public Butterfly(String iName, int iWings, String bColor, String bFlower) {
+        this.setName(iName);
         this.wing_color = bColor;
-        this.setWings(bWings);
+        this.setWings(iWings);
         this.favorite_flower = bFlower;
     } // end constructor
 
